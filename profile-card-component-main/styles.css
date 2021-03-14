@@ -15,7 +15,6 @@ body {
   overflow: hidden;
 }
 .main {
-  /* border: 1px solid red; */
   width: 21rem;
   height: 37rem;
   display: flex;
@@ -31,6 +30,7 @@ body {
   display: flex;
   flex-direction: column;
   background: white;
+  box-shadow: 5px 28px 69px 6px rgba(0, 0, 0, 0.30) ;
 }
 .main__background {
   background-image: url(./images/bg-pattern-card.svg);
@@ -93,4 +93,13 @@ body {
   font-size: 0.6rem;
   color: var(--Darkgrayishblue);
   letter-spacing: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+  background-position: -20rem -34rem, 38rem 21rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
 }
